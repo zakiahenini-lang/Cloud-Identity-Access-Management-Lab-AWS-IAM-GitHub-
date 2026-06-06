@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "SecurityAuditPermissions",
+      "Effect": "Allow",
+      "Action": [
+        "iam:Get*",
+        "iam:List*",
+        "cloudtrail:DescribeTrails",
+        "cloudtrail:GetTrailStatus",
+        "cloudtrail:LookupEvents",
+        "config:Describe*",
+        "config:Get*",
+        "config:List*",
+        "s3:GetBucketAcl",
+        "s3:GetBucketPolicy",
+        "support:Describe*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
