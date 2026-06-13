@@ -128,3 +128,7 @@ This lab is intended for learning and documentation. It does not deploy producti
 
 - Status: Draft / Portfolio project
 - Terraform code and documentation are ready for review and enhancement.
+  
+## Author
+
+Created by Zakia Henini as part of a cloud security and IAM portfolio.
